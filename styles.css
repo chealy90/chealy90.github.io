@@ -270,7 +270,7 @@ a:active {
 	right: -5px;
 	border-top: 2px solid black;
 }
-#history-main-content {
+.history-main-content {
 	font-size: 24px;
 
 }
