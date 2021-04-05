@@ -319,21 +319,21 @@ gallery
 	padding: 60px 10px 60px 0;
 
 	font-size: 50px;
-	margin-left: 60px;
+	margin-left: 30px;
 
 } 
 
 .gallery-img {
 	height: 175px;
 	border: 2px solid black;
-	margin: 0px 17px;
+	margin: 0px 10px;
 }
 
 .gallery-row-info-right {
 	
 	position: relative;
 	bottom: 40%;
-	padding: 60px 20px 60px 30px;
+	padding: 60px 20px 60px 40px;
 	border-left: 2px solid black;
 	display: inline;
 	font-size: 50px;
