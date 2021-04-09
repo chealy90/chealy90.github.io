@@ -73,7 +73,7 @@ a {
 	position: relative;
 	width: 100%;
 	top: 0;
-	border-top: 1px solid black;
+	border-top: 2px solid black;
 }
 .link-images {
 	display: flex;
