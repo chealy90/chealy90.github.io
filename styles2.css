@@ -162,3 +162,83 @@ img.logo {
 .facts {
 	margin: 10px 0;
 }
+
+
+
+
+/* history */ 
+
+.history-main {
+	display: flex;
+}
+
+.history-sidebar {
+	text-align: center;
+	flex-basis: 20%;
+	background-image: url("pawprints.jpg");
+}
+
+
+
+.history-sidebar-image {
+	width: 50%;
+	margin: 0;
+	border: 2px solid black;
+}
+
+.history-sidebar-element {
+	margin: 0px;
+}
+#history-sidebar-main-heading {
+	font-size: 20px;
+	text-align: center;
+	width: 90%;
+	background-color: rgb(220,220,220);
+	margin: 4px auto;
+	border: 2px solid black;
+}
+
+.history-sidebar-heading {
+	text-decoration: underline;
+	font-size: 17.5px;
+	margin: 3px 0;
+}
+
+
+
+.history-info {
+	font-size: 22px;
+	border-left: 2px solid black;
+	flex-basis: 80%;
+	background-color: rgb(220,220,220);
+	padding: 24px;
+}
+
+
+#about-me {
+	font-size: 27px;
+	margin: 4px 0;
+}
+
+.history-image-right {
+	width: 20%;
+	float: right;
+	border: 2px solid black;
+	box-sizing: border-box;
+}
+
+.history-image-right2 {
+	width: 20%;
+	float: right;
+	margin-right: 10%;
+	border: 2px solid black;
+	box-sizing: border-box;
+}
+
+.history-image-left {
+	width: 20%;
+	float: left;
+	margin-right: 20px;
+	border: 2px solid black;
+	box-sizing: border-box;
+}
