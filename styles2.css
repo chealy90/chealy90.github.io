@@ -16,6 +16,26 @@ a {
 	text-decoration: none;
 }
 
+.lang_button {	
+	background-color: rgb(255, 162, 0);
+	position: absolute;
+	padding: 2px 5px;
+	right: 70px;
+	top: 20px;
+	font-size: 12px;
+	border: 2px solid black;
+}
+
+.lang_button:hover, .lang_button:active {
+	background-color: rgb(255, 236, 0);
+	position: absolute;
+	padding: 2px 5px;
+	right: 70px;
+	top: 20px;
+	font-size: 12px;
+	border: 2px solid black;
+}
+
 
 .title-box {
 	display: flex;
