@@ -242,3 +242,71 @@ img.logo {
 	border: 2px solid black;
 	box-sizing: border-box;
 }
+
+
+
+
+
+/* GALLERY */
+
+
+.gallery-main {
+	margin: 0 auto;
+	background-image: url("pawprints.jpg")
+}
+
+.top-row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+
+
+.bottom-row {
+	flex-wrap: wrap-reverse;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+
+}
+
+@media (max-width: 1200px) {
+	.bottom-row {
+		flex-wrap: wrap-reverse;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		border-top: 2px black solid;
+	}
+}
+
+
+
+
+
+
+
+.gallery-row-info-left {
+	padding: 40px 30px 40px 0;
+	border-right: 2px solid black;
+	font-size: 45px;
+}
+
+.gallery-row-info-right {
+	font-size: 45px;
+	padding: 40px 0px 40px 30px;
+	border-left: 2px solid black;
+	margin-right: 30px;
+}
+
+.gallery-img {
+	height: 197.5px;
+	border: 2px solid black;
+	border-sizing: border-box;
+	margin: 18px 0px;
+	min-width: 120px;
+}
